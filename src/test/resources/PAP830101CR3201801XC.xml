@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AuxiliarCtas:AuxiliarCtas Version="1.3" RFC="PAP830101CR3" Mes="01" Anio="2018" TipoSolicitud="DE" xsi:schemaLocation="http://sat.gob.mx/esquemas/ContabilidadE/1_3/AuxiliarFolios/AuxiliarCtas_1_3.xsd" xmlns:AuxiliarCtas="http://www.sat.gob.mx/esquemas/ContabilidadE/1_3/AuxiliarCtas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <AuxiliarCtas:Cuenta NumCta="1005-0001-0001-1" DesCta="CLIENTES" SaldoIni="0.0" SaldoFin="100.00">
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+    </AuxiliarCtas:Cuenta>
+    <AuxiliarCtas:Cuenta NumCta="1005-0001-0001-2" DesCta="CLIENTES" SaldoIni="0.0" SaldoFin="100.00">
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+    </AuxiliarCtas:Cuenta>
+    <AuxiliarCtas:Cuenta NumCta="1005-0001-0001-3" DesCta="CLIENTES" SaldoIni="0.0" SaldoFin="100.00">
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+    </AuxiliarCtas:Cuenta>
+    <AuxiliarCtas:Cuenta NumCta="1005-0001-0001-4" DesCta="CLIENTES" SaldoIni="0.0" SaldoFin="100.00">
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+    </AuxiliarCtas:Cuenta>
+    <AuxiliarCtas:Cuenta NumCta="1005-0001-0001-5" DesCta="CLIENTES" SaldoIni="0.0" SaldoFin="100.00">
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+        <AuxiliarCtas:DetalleAux Fecha="2019-01-17-06:00" NumUnIdenPol="VENTAS_1" Concepto="VENTA 25" Debe="25" Haber="0.0"/>
+    </AuxiliarCtas:Cuenta>
+</AuxiliarCtas:AuxiliarCtas>

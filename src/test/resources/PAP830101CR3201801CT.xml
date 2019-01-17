@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><catalogocuentas:Catalogo xmlns:catalogocuentas="http://www.sat.gob.mx/esquemas/ContabilidadE/1_3/CatalogoCuentas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.3" RFC="PAP830101CR3" Anio="2018" Mes="01" xsi:schemaLocation="http://www.sat.gob.mx/esquemas/ContabilidadE/1_3/CatalogoCuentas/CatalogoCuentas_1_3.xsd">
+    <catalogocuentas:Ctas CodAgrup="100" NumCta="100-0000-0000-0000" Desc="CAJA" Nivel="1" Natur="A"/>
+    <catalogocuentas:Ctas CodAgrup="105" NumCta="105-0000-0000-0000" Desc="CLIENTES" Nivel="1" Natur="D"/>
+    <catalogocuentas:Ctas CodAgrup="102" NumCta="400-0000-0000-0000" Desc="BANCOS" Nivel="1" Natur="A"/>
+    <catalogocuentas:Ctas CodAgrup="502" NumCta="102-0000-0000-0000" Desc="COMPRAS" Nivel="1" Natur="D"/>
+</catalogocuentas:Catalogo>

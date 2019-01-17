@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RepAux:RepAuxFol Version="1.3" RFC="PAP830101CR3" Anio="2018" Mes="01" TipoSolicitud="DE" xsi:schemaLocation="http://sat.gob.mx/esquemas/ContabilidadE/1_3/AuxiliarFolios/AuxiliarFolios_1_3.xsd" xmlns:RepAux="http://www.sat.gob.mx/esquemas/ContabilidadE/1_3/AuxiliarFolios" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RepAux:DetAuxFol NumUnIdenPol="VENTAS_1" Fecha="2019-01-16-06:00">
+        <RepAux:ComprNal UUID_CFDI="00018D1B-626C-4DBD-BB12-903D95BD364B" MontoTotal="100.00" RFC="AAHA560203N38"/>
+        <RepAux:ComprNal UUID_CFDI="0003C09D-5F87-40F5-B523-25DB8FEF790E" MontoTotal="100.00" RFC="AAHA560203N38"/>
+        <RepAux:ComprNal UUID_CFDI="00043FCC-E73F-4810-83C5-C711C48038F6" MontoTotal="100.00" RFC="AAHA560203N38"/>
+        <RepAux:ComprNal UUID_CFDI="0006AA2B-BF96-4D3B-98C2-785A2D282C6B" MontoTotal="100.00" RFC="AAHA560203N38"/>
+        <RepAux:ComprNal UUID_CFDI="00089967-8441-4063-9F55-698B91B41564" MontoTotal="100.00" RFC="AAHA560203N38"/>
+        <RepAux:ComprNal UUID_CFDI="000A40D5-5B88-4042-A8EA-72D120ECF399" MontoTotal="100.00" RFC="AAHA560203N38"/>
+        <RepAux:ComprNal UUID_CFDI="000FC1FE-E5DD-47E9-B6ED-D3E7FC167066" MontoTotal="100.00" RFC="AAHA560203N38"/>
+        <RepAux:ComprNal UUID_CFDI="0010F248-598C-430C-ACBB-2CF6A39EDF7F" MontoTotal="100.00" RFC="AAHA560203N38"/>
+        <RepAux:ComprNal UUID_CFDI="00129928-8336-4DDB-B689-BB2B70838FC1" MontoTotal="100.00" RFC="AAHA560203N38"/>
+        <RepAux:ComprNal UUID_CFDI="0012F680-05A0-4593-BF56-ED177EAA5585" MontoTotal="100.00" RFC="AAHA560203N38"/>
+    </RepAux:DetAuxFol>
+</RepAux:RepAuxFol>
