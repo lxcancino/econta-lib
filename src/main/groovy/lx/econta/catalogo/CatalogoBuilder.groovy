@@ -48,7 +48,7 @@ class CatalogoBuilder {
     }
 
     Schema getSchema() {
-        File xsd = new File('src/main/resources/CatalogoCuentas_1_3.xsd')
+        File xsd = new File('src/main/resources/schemas/CatalogoCuentas_1_3.xsd')
         def factory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI)
         Schema schema = factory.newSchema(xsd)
         return schema

@@ -1,8 +1,5 @@
 package lx.econta.balanza
 
-import groovy.xml.XmlUtil
-
-
 import javax.xml.XMLConstants
 import javax.xml.bind.JAXBContext
 import javax.xml.bind.Marshaller
@@ -39,7 +36,6 @@ class BalanzaBuilder {
     String buildXml(Balanza balanza) {
         Writer writer = new StringWriter()
         this.marshaller.marshal(balanza, writer)
-        // return XmlUtil.serialize(writer.toString())
         return writer.toString()
     }
 

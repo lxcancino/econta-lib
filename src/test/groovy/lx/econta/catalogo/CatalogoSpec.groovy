@@ -5,36 +5,28 @@ import spock.lang.Specification
 
 class CatalogoSpec extends Specification{
 
-    def 'should marshall Catalogo object to xml '(){
+    def "should provide a Fluent API support"() {
+        given:
+        Catalogo catalogo = Catalogo.builder()
+            .ejercicio(2018)
+            .mes(Mes.ENERO)
+            .version('1.3')
+            .build()
+        expect:
+        catalogo.ejercicio == 2018
+        catalogo.mes == Mes.ENERO
+        catalogo.version == '1.3'
+    }
 
-        given: 'A new Catalogo'
-        def catalogo = buildCatalogo()
-        and: 'a the builder'
-        def builder = new CatalogoBuilder()
+    def 'should provide Tupple constructor '(){
+        given:
+        Catalogo catalogo = new Catalogo('1.6', 'RFC',2018, Mes.ENERO)
 
-        when: 'marshalling to xml'
-        def xmlString = builder.build(catalogo)
-        println xmlString
-
-        then: xmlString == """catalogos"""
+        expect:
+        catalogo.mes == Mes.ENERO
+        catalogo.ejercicio == 2018
 
     }
 
-
-    Catalogo buildCatalogo() {
-        Catalogo catalogo = new Catalogo('1.3', 'PAP830101CR3', 2018, Mes.ENERO)
-        catalogo.cuentas = buildCuentasDePrueba()
-        return catalogo
-    }
-
-    List<Cuenta> buildCuentasDePrueba() {
-        List<Cuenta> ctas = []
-        ctas.add(new Cuenta('01','600-0000-0000-0000', 'GASTOS', '', 1, Naturaleza.ACREDORA))
-        ctas.add(new Cuenta('01','105-0000-0000-0000', 'CLIENTES', '', 1, Naturaleza.DEUDORA))
-        ctas.add(new Cuenta('01','400-0000-0000-0000', 'BANCOS', '', 1, Naturaleza.ACREDORA))
-        ctas.add(new Cuenta('01','102-0000-0000-0000', 'COMPRAS', '', 1, Naturaleza.DEUDORA))
-
-        return ctas
-    }
 
 }

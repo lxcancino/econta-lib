@@ -100,7 +100,7 @@ class BalanzaBuilderSpec extends Specification{
         // ObjectFactory factory = new ObjectFactory()
         Balanza balanza = Balanza.builder()
         .ejercicio(2018)
-        .mes(Mes.ENERO)
+        .mes(Mes.valueOf(1))
         .rfc('PAP830101CR3')
         .tipoDeEnvio('N')
         .build()

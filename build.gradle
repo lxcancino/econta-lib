@@ -13,7 +13,7 @@ buildscript {
 
     dependencies {
         classpath 'com.github.jacobono:gradle-jaxb-plugin:1.3.6'
-        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4'
     }
 }
 
@@ -34,7 +34,7 @@ idea {
 
 
 group = 'lx.econta'
-version = "1.3.0" // Contabilidad electronica para la
+version = "1.3.1"
 description = """
     Groovy library to generate  all the XML files required by what is known as Mexican Electronic Accouting 
     (Contabilidad electronica) according to the federal disponsition Anexo 24  SAT updated to version 1.3
@@ -113,7 +113,7 @@ bintray {
         name = "${project.name}"
         desc = "${project.description}"
         licenses = ['Apache-2.0']
-        vcsUrl = 'https://github.com/rcancino/lx-cfdi.git'
+        vcsUrl = 'https://github.com/lxcancino/econta-lib'
         labels = ['Contabilidad elctronica','Anexo 24']
         version {
             name = "${project.version}"

@@ -38,4 +38,29 @@ class MesSpec extends Specification{
         Mes.TRECE || '13'
 
     }
+
+    @Unroll
+    def "el valor entero de #mes debe ser #value"() {
+        expect:
+        Mes.valueOf(mes) == value
+
+        where:
+        mes || value
+        1 || Mes.ENERO
+        2 || Mes.FEBRERO
+        3 || Mes.MARZO
+        4 || Mes.ABRIL
+        5 || Mes.MAYO
+        6 || Mes.JUNIO
+        7 || Mes.JULIO
+        8 || Mes.AGOSTO
+        9 || Mes.SEPTIEMBRE
+        10 || Mes.OCTUBRE
+        11 || Mes.NOVIEMBRE
+        12 || Mes.DICIEMBRE
+        13 || Mes.TRECE
+
+
+
+    }
 }
